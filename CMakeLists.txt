@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project("ROS2 Master")
+project("ROS2_JAZZY_deploy_WS")
 
 # usually I put this in a separate file include("/opt/ros/_common/Colcon.cmake")
 function(colcon_add_subdirectories)
@@ -41,5 +41,5 @@ endfunction()
 colcon_add_subdirectories(
         BUILD_BASE "${PROJECT_SOURCE_DIR}/build"
         BASE_PATHS "${PROJECT_SOURCE_DIR}/src/"
-        --packages-select rmw_cyclonedds_cpp performance_test
+        --packages-select sas_common  sas_conversions  sas_core  sas_datalogger  sas_msgs  sas_robot_driver  sas_robot_kinematics
 )

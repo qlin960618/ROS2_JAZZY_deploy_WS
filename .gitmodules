@@ -1,0 +1,21 @@
+[submodule "src/sas_common"]
+	path = src/sas_common
+	url = https://github.com/SmartArmStack/sas_common.git
+[submodule "src/sas_core"]
+	path = src/sas_core
+	url = https://github.com/qlin960618/sas_core.git
+[submodule "src/sas_msgs"]
+	path = src/sas_msgs
+	url = https://github.com/SmartArmStack/sas_msgs.git
+[submodule "src/sas_conversions"]
+	path = src/sas_conversions
+	url = https://github.com/SmartArmStack/sas_conversions.git
+[submodule "src/sas_datalogger"]
+	path = src/sas_datalogger
+	url = https://github.com/SmartArmStack/sas_datalogger.git
+[submodule "src/sas_robot_kinematics"]
+	path = src/sas_robot_kinematics
+	url = https://github.com/SmartArmStack/sas_robot_kinematics.git
+[submodule "src/sas_robot_driver"]
+	path = src/sas_robot_driver
+	url = https://github.com/qlin960618/sas_robot_driver.git
