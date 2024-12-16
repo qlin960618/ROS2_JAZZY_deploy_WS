@@ -2,6 +2,7 @@
 
 THIS_REPO_PATH=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+source /opt/ros/jazzy/setup.bash
 # cd to the root of the workspace
 cd $THIS_REPO_PATH
 # need to build sas_core and sas_msgs first for dependencies, (maybe there is a better way to do this)
