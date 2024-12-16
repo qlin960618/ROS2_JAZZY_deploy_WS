@@ -3,7 +3,7 @@
 	url = https://github.com/SmartArmStack/sas_common.git
 [submodule "src/sas_core"]
 	path = src/sas_core
-	url = https://github.com/qlin960618/sas_core.git
+	url = https://github.com/SmartArmStack/sas_core.git
 [submodule "src/sas_msgs"]
 	path = src/sas_msgs
 	url = https://github.com/SmartArmStack/sas_msgs.git
@@ -18,4 +18,4 @@
 	url = https://github.com/SmartArmStack/sas_robot_kinematics.git
 [submodule "src/sas_robot_driver"]
 	path = src/sas_robot_driver
-	url = https://github.com/qlin960618/sas_robot_driver.git
+	url = https://github.com/SmartArmStack/sas_robot_driver.git
