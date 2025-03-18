@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+!/usr/bin/zsh
 
 THIS_REPO_PATH=$(dirname $(realpath $0))
 
@@ -14,13 +14,13 @@ update_remote() {
 }
 
 #sas_common  sas_conversions  sas_core  sas_datalogger  sas_msgs  sas_robot_driver  sas_robot_kinematics
-update_remote src/sas_common ros2
-update_remote src/sas_conversions ros2
+update_remote src/sas_common jazzy
+update_remote src/sas_conversions jazzy
 update_remote src/sas_core jazzy
-update_remote src/sas_datalogger ros2
-update_remote src/sas_msgs ros2
-update_remote src/sas_robot_driver f0edae7
-update_remote src/sas_robot_kinematics ros2
+update_remote src/sas_datalogger jazzy
+update_remote src/sas_msgs jazzy
+update_remote src/sas_robot_driver panda_jazzy_stable
+update_remote src/sas_robot_kinematics jazzy
 
 # cd to the root of the workspace
 cd $THIS_REPO_PATH
