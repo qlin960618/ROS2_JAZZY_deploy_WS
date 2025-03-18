@@ -1,4 +1,4 @@
-!/usr/bin/zsh
+#!/usr/bin/zsh
 
 THIS_REPO_PATH=$(dirname $(realpath $0))
 
